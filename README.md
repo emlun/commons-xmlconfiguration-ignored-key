@@ -1,7 +1,7 @@
 Demo: Apache Commons XMLConfiguration ignores the configuration key immediately following one whose value contains a comma
 
-- Expected: The test succeeds
-- Actual: The test fails
+- Expected: All tests succeed
+- Actual: The tests `testWithOnlyComma`, `testWithCommaSeparatedList` and `testWithOnlyCommaWithStringBuilder` fail
 
 
 Running
