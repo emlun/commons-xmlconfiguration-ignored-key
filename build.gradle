@@ -7,3 +7,7 @@ dependencies {
               'commons-configuration:commons-configuration:1.+',
               'commons-collections:commons-collections:3.+' // Transitive from commons configuration
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.4'
+}
